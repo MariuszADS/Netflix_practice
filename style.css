@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+	background-image: url('./img/watch\ movies\ online\ free\ website\ tik\ tok_online\ movies\ free\ website_watch\ free\ movies\ online\ website.jfif');
+	background-repeat: no-repeat;
+   background-size: cover;
+   /* background-position: center; */
+}
+
+.gray_display{
+    background-color: rgba(0,0,0,0.8);
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo_netflix{
+    
+    width: 44vh;
+    height: 13vh;
+    margin: 2em 2em 2em 20em;
+    background-image: url('./img/NETFLIX_logo.jpg');
+    background-repeat: no-repeat
+
+    
+}
+
+
+
+.flex-container-st{
+    display:flex ;
+    justify-content: space-between;
+    /* height: 15vh; */
+}
+.flex-container-nd{
+    display:flex ;
+    justify-content: flex-end;
+    /* height: 15vh; */
+}
+
+.nav {
+    position: fixed; /* lub position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    
+}
+
+.nav-btn{
+    border: 1.5px solid white;
+    border-radius: 8px;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.choose_languages{
+    background-color: rgb(51, 48, 48);
+    height: 4vh;
+    margin: 2em;
+    
+
+}
+
+.btn-login{
+    background: red;
+    width: 9vh;
+    height: 4vh;
+    margin: 2em 20em 2em 1em;
+}
+
+main{
+    color: rgb(235, 217, 217);
+    font-size: 3rem;
+}
+.flex-container_offer {
+    position:fixed;
+    top: 30%;
+    left: 30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 500px;   
+}
+.offer-par{
+    font-size: 8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.offer-price-cancel{
+margin: 1rem;
+}
+.offer-info{
+font-size: 2rem;
+}
+
+.flex-container_input-btn{
+    position:fixed;
+    top: 77%;
+    left: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 100px;  
+}
+
+.input-email{
+    width: 15vw;
+    height: 4vh;
+    margin: 1rem;
+}
+
+.get-started{
+    background-color: red;
+    width: 4vw;
+    height: 4vh;
+}
