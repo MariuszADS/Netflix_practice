@@ -4,126 +4,155 @@
 	padding: 0;
 }
 
-html{
-    font-size: 10px;
+html {
+	font-size: 10px;
 }
 
 body {
 	background-image: url('./img/watch\ movies\ online\ free\ website\ tik\ tok_online\ movies\ free\ website_watch\ free\ movies\ online\ website.jfif');
 	background-repeat: no-repeat;
-   background-size: cover;
-   /* background-position: center; */
+	background-size: cover;
+	/* background-position: center; */
 }
 
-.gray_display{
-    background-color: rgba(0,0,0,0.8);
-    width: 100vw;
-    height: 100vh;
+.gray_display {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100vw;
+	height: 100vh;
 }
 
-.logo_netflix{
-    
-    width: 44vh;
-    height: 13vh;
-    margin: 2em 2em 2em 20em;
-    background-image: url('./img/NETFLIX_logo.jpg');
-    background-repeat: no-repeat
-
-    
+.logo_netflix {
+	width: 44vh;
+	height: 13vh;
+	margin: 2em 2em 2em 20em;
+	background-image: url('./img/NETFLIX_logo.jpg');
+	background-repeat: no-repeat;
 }
 
-
-
-.flex-container-st{
-    display:flex ;
-    justify-content: space-between;
-    /* height: 15vh; */
+.flex-container-st {
+	display: flex;
+	justify-content: space-between;
+	/* height: 15vh; */
 }
-.flex-container-nd{
-    display:flex ;
-    justify-content: flex-end;
-    /* height: 15vh; */
+.flex-container-nd {
+	display: flex;
+	justify-content: flex-end;
+	/* height: 15vh; */
 }
 
 .nav {
-    position: fixed; /* lub position: fixed; */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    
+	position: fixed; /* lub position: fixed; */
+	top: 0;
+	left: 0;
+	width: 100vw;
 }
 
-.nav-btn{
-    border: 1.5px solid white;
-    border-radius: 8px;
-    color: aliceblue;
-    padding: 1rem;
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
-.choose_languages{
+.choose_languages {
     background-color: rgb(51, 48, 48);
     height: 4vh;
     margin: 2em;
-    
-
+}
+.nav-btn {
+	border: 1.5px solid white;
+	border-radius: 8px;
+	color: aliceblue;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: 800;
 }
 
-.btn-login{
-    background: red;
-    width: 9vh;
-    height: 4vh;
-    margin: 2em 20em 2em 1em;
+
+.btn-login {
+	background: red;
+	width: 9vh;
+	height: 4vh;
+	margin: 2em 20em 2em 1em;
+    transition: .3s linear;
 }
 
-main{
-    color: rgb(235, 217, 217);
-    font-size: 3rem;
+.nav-btn :hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+main {
+	color: rgb(235, 217, 217);
+	font-size: 3rem;
 }
 .flex-container_offer {
-    position:fixed;
-    top: 30%;
-    left: 30%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 750px;
-    height: 500px;   
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 750px;
+	height: 500px;
 }
-.offer-par{
-    font-size: 8rem;
-    font-weight: bold;
-    text-align: center;
+.offer-par {
+	font-size: 8rem;
+	font-weight: bold;
+	text-align: center;
 }
-.offer-price-cancel{
-margin: 1rem;
+.offer-price-cancel {
+	margin: 4rem;
 }
-.offer-info{
-font-size: 2rem;
-}
-
-.flex-container_input-btn{
-    position:fixed;
-    top: 77%;
-    left: 40%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 750px;
-    height: 100px;  
+.offer-info {
+	font-size: 2rem;
 }
 
-.input-email{
-    width: 15vw;
-    height: 4vh;
-    margin: 1rem;
+.flex-container_input-btn {
+	position: fixed;
+	top: 77%;
+	left: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 750px;
+	height: 100px;
 }
 
-.get-started{
-    background-color: red;
-    width: 4vw;
-    height: 4vh;
+.input-email {
+	width: 45rem;
+	height: 5.5rem;
+	margin: 1rem;
+	font-size: 1.7rem;
+	font-weight: 500;
+	padding: 1.5rem 1.5rem 0.1rem 1.5rem;
+}
+
+.get-started {
+	background-color: red;
+	width: 22rem;
+	height: 5.5rem;
+	margin: 1rem;
+	border-radius: 5px;
+	color: aliceblue;
+	padding: 1rem 1rem 1rem 0;
+    font-weight: 600;
+	font-size: 2.4rem;
+    transition: .3s linear;
+}
+
+.get-started:hover{
+    background-color: grey;
+}
+
+.fixed_par_email {
+	position: fixed;
+	top: 79.6%;
+    left: 32.7%;
+    color: grey;
+	font-size: 1.5rem;
+
+}
+
+.fa-solid{
+    position: fixed;
+    /* font-size: 7rem; */
+    top: 81%;
+    left: 65.7%;
+    /* z-index: 10000; */
+	
 }
