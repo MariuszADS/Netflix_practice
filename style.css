@@ -4,126 +4,176 @@
 	padding: 0;
 }
 
-html{
-    font-size: 10px;
+html {
+	font-size: 10px;
 }
 
 body {
 	background-image: url('./img/watch\ movies\ online\ free\ website\ tik\ tok_online\ movies\ free\ website_watch\ free\ movies\ online\ website.jfif');
 	background-repeat: no-repeat;
-   background-size: cover;
-   /* background-position: center; */
+	background-size: cover;
+	/* background-position: center; */
 }
 
-.gray_display{
-    background-color: rgba(0,0,0,0.8);
-    width: 100vw;
-    height: 100vh;
+.gray_display {
+	background-color: rgba(13, 13, 13, 0.8);
+	width: 100vw;
+	height: 100vh;
 }
 
-.logo_netflix{
-    
-    width: 44vh;
-    height: 13vh;
-    margin: 2em 2em 2em 20em;
-    background-image: url('./img/NETFLIX_logo.jpg');
-    background-repeat: no-repeat
-
-    
+.logo_netflix {
+	width: 44vh;
+	height: 13vh;
+	margin: 2em 2em 2em 20em;
+	background-image: url('./img/NETFLIX_logo.jpg');
+	background-repeat: no-repeat;
 }
 
-
-
-.flex-container-st{
-    display:flex ;
-    justify-content: space-between;
-    /* height: 15vh; */
+.flex-container-st {
+	display: flex;
+	justify-content: space-between;
+	/* height: 15vh; */
 }
-.flex-container-nd{
-    display:flex ;
-    justify-content: flex-end;
-    /* height: 15vh; */
+.flex-container-nd {
+	display: flex;
+	justify-content: flex-end;
+	/* height: 15vh; */
 }
 
 .nav {
-    position: fixed; /* lub position: fixed; */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    
+	position: fixed; /* lub position: fixed; */
+	top: 0;
+	left: 0;
+	width: 100vw;
 }
 
-.nav-btn{
-    border: 1.5px solid white;
-    border-radius: 8px;
-    color: aliceblue;
-    padding: 1rem;
-    font-size: 1.5rem;
-    font-weight: 800;
+.nav-btn {
+	border: 1.5px solid white;
+	border-radius: 8px;
+	color: aliceblue;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: 800;
 }
 
-.choose_languages{
-    background-color: rgb(51, 48, 48);
-    height: 4vh;
-    margin: 2em;
-    
-
+.choose_languages {
+	background-color: rgb(51, 48, 48);
+	height: 4vh;
+	margin: 2em;
+	cursor: pointer;
+	transition: 0.3s;
 }
 
-.btn-login{
-    background: red;
-    width: 9vh;
-    height: 4vh;
-    margin: 2em 20em 2em 1em;
+.choose_languages:hover {
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
-main{
-    color: rgb(235, 217, 217);
-    font-size: 3rem;
+.btn-login {
+	background: red;
+	width: 9vh;
+	height: 4vh;
+	margin: 2em 20em 2em 1em;
+	transition: 0.3s;
+	cursor: pointer;
 }
+
+.btn-login:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+	color: rgb(235, 217, 217);
+	font-size: 3rem;
+}
+
 .flex-container_offer {
-    position:fixed;
-    top: 30%;
-    left: 30%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 750px;
-    height: 500px;   
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 750px;
+	height: 500px;
 }
-.offer-par{
-    font-size: 8rem;
-    font-weight: bold;
-    text-align: center;
+.offer-par {
+	font-size: 8rem;
+	font-weight: bold;
+	text-align: center;
 }
-.offer-price-cancel{
-margin: 1rem;
+.offer-price-cancel {
+	margin: 4rem;
 }
-.offer-info{
-font-size: 2rem;
-}
-
-.flex-container_input-btn{
-    position:fixed;
-    top: 77%;
-    left: 40%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width: 750px;
-    height: 100px;  
+.offer-info {
+	font-size: 2rem;
 }
 
-.input-email{
-    width: 15vw;
-    height: 4vh;
-    margin: 1rem;
+.flex-container_input-btn {
+	position: fixed;
+	top: 77%;
+	left: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 750px;
+	height: 100px;
 }
 
-.get-started{
-    background-color: red;
-    width: 4vw;
-    height: 4vh;
+.input-email {
+	width: 20vw;
+	height: 5vh;
+	margin: 1rem;
+	color: black;
+}
+
+.input-in-email {
+	position: fixed;
+	color: grey;
+	left: 37%;
+	top: 80%;
+	font-size: 1.5rem;
+}
+
+.get-started {
+	background-color: red;
+	width: 7vw;
+	height: 5vh;
+	border: 1.5px solid white;
+	border-radius: 8px;
+	color: aliceblue;
+	padding: 1rem;
+	font-size: 1.5rem;
+	font-weight: 800;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.get-started:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.main_panel{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-container_area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	width: 45rem;
+	height: 72rem;
+	border: white 1px solid;
+}
+
+.input_area_1 , .input_area_2{
+	
+	width: 32rem;
+	height: 6rem;
+	margin: 1rem;
 }
